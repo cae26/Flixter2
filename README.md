@@ -2,7 +2,7 @@
 
 Submitted by: **Carlos Espana**
 
-**Flixster2** is a movie browsing app that allows users to browse ... [TODO] 
+**Flixster2** is a movie browsing app that allows users to browse popular movies and actors
 
 Time spent: **X** hours spent in total
 
