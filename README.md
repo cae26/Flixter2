@@ -4,7 +4,7 @@ Submitted by: **Carlos Espana**
 
 **Flixster2** is a movie browsing app that allows users to browse popular movies and actors
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
