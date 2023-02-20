@@ -83,10 +83,6 @@ class PersonActivity : AppCompatActivity() {
         //popularityTextView.text = popularityTextView.text.toString() + "\n" + movie.popularity
 
 
-        // Load the media image
-        ViewCompat.setTransitionName(profileImageView, person.name)
-        //postponeEnterTransition()
-
         val radius = 30
         Glide.with(this)
             .load(("https://image.tmdb.org/t/p/w500/"+person.profile_path))

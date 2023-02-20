@@ -34,8 +34,6 @@ class MovieActivity : AppCompatActivity() {
         titleTextView.text = movie.title
         overviewTextView.text = movie.overview
 
-        ViewCompat.setTransitionName(movieImageView, movie.title)
-
 
         val radius = 30
         Glide.with(this)
