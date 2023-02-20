@@ -15,7 +15,6 @@
         tools:context=".MoviesFragment"
         tools:listitem="@layout/fragment_movie"
         />
-
     <androidx.core.widget.ContentLoadingProgressBar
         android:id="@+id/progress"
         style="?android:attr/progressBarStyleLarge"
@@ -24,6 +23,7 @@
         android:layout_gravity="center"
         android:indeterminate="true"
         android:theme="@style/Widget.AppCompat.ProgressBar" />
+
 
 
 </FrameLayout>

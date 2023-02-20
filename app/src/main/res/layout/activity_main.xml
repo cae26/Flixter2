@@ -14,7 +14,7 @@
         app:layout_constraintHeight_percent="0.44"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/upcoming" />
+        app:layout_constraintTop_toBottomOf="@+id/popular_movies" />
 
     <FrameLayout
         android:id="@+id/content2"
@@ -24,29 +24,29 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.44"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/latest" />
+        app:layout_constraintTop_toBottomOf="@+id/popular_actors" />
 
     <TextView
-        android:id="@+id/upcoming"
+        android:id="@+id/popular_movies"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         app:layout_constraintHeight_percent="0.06"
         android:layout_marginStart="16dp"
         android:gravity="center_vertical"
-        android:text="Upcoming Movies"
+        android:text="Popular Movies"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/latest"
+        android:id="@+id/popular_actors"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         app:layout_constraintHeight_percent="0.06"
         android:layout_marginStart="16dp"
         android:gravity="center_vertical"
-        android:text="Most Popular Movies This Week"
+        android:text="Popular Actors"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
